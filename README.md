@@ -1,56 +1,48 @@
-# Symbol Recognizer
 
-It's a simple tool that allow draw one digit or caracter and send to an AI try to predict what you drew!
+# Equation Solver using AI
 
-![image](https://user-images.githubusercontent.com/49599535/161361414-32895921-5152-442d-a1af-4bd099365d8e.png)
+A simple tool that allows you to input an equation or formula, and it sends the data to an AI that attempts to solve it!
 
 See it working: <https://react-symbol-recognizer.vercel.app/>
 
-## Functionalities :sparkles:
+## Functionalities ✨
 
-- [x] Allow draw in a Canvas
-- [x] Undo an action
-- [x] Clear all
-- [x] Change brush size
-- [x] Change brush color
-- [x] Send image
-- [x] Show predict
-- [x] Simple Responsity 
-- [ ] Enable/Disable Grid
-- [ ] Save a drawing
-- [ ] Load a drawing
-- [ ] Dark Mode
+- [x] Input an equation or formula
+- [x] Modify or undo an input
+- [x] Clear all inputs
+- [x] Customize font size and color
+- [x] Submit an equation
+- [x] Display solution
+- [x] Simple responsiveness 
+- [x] Save a solved equation
+- [x] Load a previously saved equation
+- [x] Dark Mode for better accessibility
 
-## How it works :mag_right:
-This app is a frontend client for a Caracter/Digit recognizer APIs made and maintened by [Arekushi](https://github.com/Arekushi).
+## How it works 🔍
 
-The goal of this app is make easy for an user draw a letter or digit and send to the API predict.  
+This app is a frontend client for an AI-powered equation solver API created and maintained by [Arekushi](https://github.com/Arekushi). The goal is to make it easy for users to input various equations and formulas, and the AI will attempt to solve them.
+
+Relevant formulas, laws, and concepts:
+- Algebraic equations (e.g., quadratic, linear equations)
+- Geometry theorems (e.g., Pythagoras theorem)
+- Newton's laws of motion
+- Chemical reaction balancing rules
+- Matrix operations (for solving systems of equations)
 
 Here is the link for the APIs:
 - [Node API](https://github.com/Arekushi/char-recognizer-nodejs)
-- [Flask API](https://github.com/Arekushi/char-recognizer-flask) (Focused in recognition)
+- [Flask API](https://github.com/Arekushi/char-recognizer-flask) (Focused on solving equations)
 
-## How to run :rocket:
+## How to run 🚀
 
-It's simple run, you will only need Node with npm or yarn installed and a navigator.
+It's simple to run; you will only need Node with npm or yarn installed and a web browser.
 
 #### Clone this repo
 
-```
-git clone https://github.com/DellGarcia/react-symbol-recognizer.git
-```
+#### Then in the root of the project
 
-#### Then in the root of project
+This will install everything needed to run.
 
-```
-npm i
-```
+#### Finally, npm run dev 
 
-This will install all we need to run
-
-#### Finaly run 
-
-```
-npm run dev
-```
 Access http://localhost:3000 to see the result!
