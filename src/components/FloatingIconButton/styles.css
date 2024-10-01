@@ -1,0 +1,61 @@
+.floating-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #553772;
+  box-shadow: 1px 1px 3px black;
+}
+
+.send { 
+  margin-right: -70px;
+}
+
+.floating-button + .floating-button {
+  margin-top: 20px;
+}
+
+.floating-button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+.floating-button:disabled {
+  filter: brightness(0.5);
+}
+
+.floating-button svg {
+  color: #FFF;
+  font-size: 20px;
+}
+
+.floating-button .tooltip {
+  position: absolute;
+  top: -28px;
+  right: -82px;
+  background-color: ghostwhite;
+  padding: 7px 10px;
+  font-family: 'Itim';
+  font-size: 1.2rem;
+  color: #000;
+  width: 80px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  text-align: center;
+  user-select: none;
+  display: none;
+  padding: 5px 10px;
+}
+
+.floating-button:hover .tooltip {
+  display: inline;
+  opacity: auto;
+}
+
+.tooltip-left {
+  left: -82px;
+}

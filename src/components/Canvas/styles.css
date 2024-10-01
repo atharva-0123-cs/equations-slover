@@ -1,0 +1,94 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+#canvas-container {
+  position: relative;
+  width: 72vw;
+  /* border: 1px solid black; */
+}
+
+
+.main .drawer {
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px;
+  width: 100%;
+}
+
+.main .floor-controls {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+
+
+span.floating-right-controls {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: -70px;
+}
+
+span.floating-left-controls {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: -70px;
+}
+
+.brush-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #553772;
+  padding: 5px 16px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+}
+
+
+.brush-controls input {
+  width: 50px;
+  height: 30px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.brush-controls input[type=number] {
+  font-family: 'Itim';
+  font-size: 1.1rem;
+  background-color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  border: 0;
+}
+
+.brush-controls input[type=color] {
+  margin: 0 10px;
+  padding: 1px;
+  width: 27px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #553772;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: ghostwhite;
+  border-radius: 4px;
+}

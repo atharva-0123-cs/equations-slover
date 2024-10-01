@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1b;
+}
+
+p {
+  margin-bottom: auto;
+}
+
+body, p, button, input, textarea {
+  font-family: 'Itim';
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Itim';
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: ghostwhite;
+  margin-bottom: 50px;
+}
