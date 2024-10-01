@@ -3,7 +3,7 @@
 
 A simple tool that allows you to input an equation or formula, and it sends the data to an AI that attempts to solve it!
 
-See it working: <https://react-symbol-recognizer.vercel.app/>
+See it working: <https://equations-slover.vercel.app/>
 
 ## Functionalities ✨
 
@@ -20,7 +20,7 @@ See it working: <https://react-symbol-recognizer.vercel.app/>
 
 ## How it works 🔍
 
-This app is a frontend client for an AI-powered equation solver API created and maintained by [Arekushi](https://github.com/Arekushi). The goal is to make it easy for users to input various equations and formulas, and the AI will attempt to solve them.
+This app is a frontend client for an AI-powered equation solver API. The goal is to make it easy for users to input various equations and formulas, and the AI will attempt to solve them.
 
 Relevant formulas, laws, and concepts:
 - Algebraic equations (e.g., quadratic, linear equations)
@@ -28,21 +28,27 @@ Relevant formulas, laws, and concepts:
 - Newton's laws of motion
 - Chemical reaction balancing rules
 - Matrix operations (for solving systems of equations)
-
-Here is the link for the APIs:
-- [Node API](https://github.com/Arekushi/char-recognizer-nodejs)
-- [Flask API](https://github.com/Arekushi/char-recognizer-flask) (Focused on solving equations)
-
 ## How to run 🚀
 
 It's simple to run; you will only need Node with npm or yarn installed and a web browser.
 
 #### Clone this repo
 
+
+```
+git clone https://github.com/atharva-0123-cs/equations-slover.git
+```
+
 #### Then in the root of the project
+
+```
+npm install
+```
 
 This will install everything needed to run.
 
 #### Finally, npm run dev 
-
+```
+npm run dev
+```
 Access http://localhost:3000 to see the result!
