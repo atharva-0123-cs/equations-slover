@@ -52,3 +52,8 @@ This will install everything needed to run.
 npm run dev
 ```
 Access http://localhost:3000 to see the result!
+
+
+![diagram-export-10-1-2024-5_04_32-PM](https://github.com/user-attachments/assets/b7570c77-cbee-4373-b8c1-d92aaf2ba2d2)
+
+
